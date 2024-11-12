@@ -36,10 +36,10 @@ To install the project, follow these steps:
 
 The REVEX explanation pipeline consists of four main components:
 
-* [segmenters.py](segmenters.py): Contains various options for video segmentation.
-* [perturbers.py](perturbers.py): Provides different methods for perturbing video regions, including feature selection, sample selection, and feature removal. Each perturbation is passed through the network to obtain an associated prediction.
-* [explainers.py](explainers.py): Summarizes the data generated from the perturbation step.
-* [visualizers.py](visualizers.py): Offers multiple visualization options to enhance the understanding of the explanations.
+* [segmenters.py](revex_framework/segmenters.py): Contains various options for video segmentation.
+* [perturbers.py](revex_framework/perturbers.py): Provides different methods for perturbing video regions, including feature selection, sample selection, and feature removal. Each perturbation is passed through the network to obtain an associated prediction.
+* [explainers.py](revex_framework/explainers.py): Summarizes the data generated from the perturbation step.
+* [visualizers.py](revex_framework/visualizers.py): Offers multiple visualization options to enhance the understanding of the explanations.
 
 In the [notebooks](notebooks) directory, you will find examples demonstrating how to use the different options available at each step.
 
