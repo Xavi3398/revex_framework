@@ -6,36 +6,9 @@ This project contains the implementation of REVEX (REmoval-based Video EXplanati
 
 Additionally, six existing explanation techniques are adapted to video data by incorporating temporal information and enabling local explanations. The project also provides implementation for evaluation metrics commonly used for eXplainable AI (XAI) methods.
 
-<p float="left" align="middle">
-    <div>
-        <p style="text-align: center;"><b>Input video</b></p>
-        <img width=120 src="resources/gifs/blowing glass small.gif"/>
-    </div>
-    <div>
-    <p style="text-align: center;"><b>Video LIME</b></p>
-    <img width=120 src="resources/gifs/VideoLIME.gif"/>
-    </div>
-    <div>
-    <p style="text-align: center;"><b>Vid. K.-SHAP</b></p>
-    <img width=120 src="resources/gifs/VideoKernelSHAP.gif"/>
-    </div>
-    <div>
-    <p style="text-align: center;"><b>Video RISE</b></p>
-    <img width=120 src="resources/gifs/VideoRISE.gif"/>
-    </div>
-    <div>
-    <p style="text-align: center;"><b>Vieo LOCO</b></p>
-    <img width=120 src="resources/gifs/VideoLOCO.gif"/>
-    </div>
-    <div>
-    <p style="text-align: center;"><b>Video UP</b></p>
-    <img width=120 src="resources/gifs/VideoUP.gif"/>
-    </div>
-    <div>
-    <p style="text-align: center;"><b>Video SOS</b></p>
-    <img width=120 src="resources/gifs/VideoSOS.gif"/>
-    </div>
-</p>
+| Input video | Video LIME | Video K.-SHAP | Video RISE | Video LOCO | Video UP | Video SOS |
+|-------------|------------|---------------|------------|------------|----------|-----------|
+| ![](<resources/gifs/blowing glass small.gif>) | ![](<resources/gifs/VideoLIME.gif>) | ![](<resources/gifs/VideoKernelSHAP.gif>) | ![](<resources/gifs/VideoRISE.gif>) | ![](<resources/gifs/VideoLOCO.gif>) | ![](<resources/gifs/VideoUP.gif>) | ![](<resources/gifs/VideoSOS.gif>) |
 
 
 ## Install
