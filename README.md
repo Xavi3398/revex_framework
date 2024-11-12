@@ -7,23 +7,34 @@ This project contains the implementation of REVEX (REmoval-based Video EXplanati
 Additionally, six existing explanation techniques are adapted to video data by incorporating temporal information and enabling local explanations. The project also provides implementation for evaluation metrics commonly used for eXplainable AI (XAI) methods.
 
 <div style="align-items: end; width: 100%; display: flex; flex-direction: row; justify-content: center;">
-    <p style="text-align: center; width: 14%;"><b>Input video</b></p>
-    <p style="text-align: center; width: 14%;"><b>Video LIME</b></p>
-    <p style="text-align: center; width: 14%;"><b>Video Kernel-SHAP</b></p>
-    <p style="text-align: center; width: 14%;"><b>Video RISE</b></p>
-    <p style="text-align: center; width: 14%;"><b>Vieo LOCO</b></p>
-    <p style="text-align: center; width: 14%;"><b>Video UP</b></p>
-    <p style="text-align: center; width: 14%;"><b>Video SOS</b></p>
-</div>
-
-<div style="width: 100%; display: flex; flex-direction: row; justify-content: center;">
-    <img style="width: 14%;" src="resources/gifs/blowing glass small.gif"/>
-    <img style="width: 14%;" src="resources/gifs/VideoLIME.gif"/>
-    <img style="width: 14%;" src="resources/gifs/VideoKernelSHAP.gif"/>
-    <img style="width: 14%;" src="resources/gifs/VideoRISE.gif"/>
-    <img style="width: 14%;" src="resources/gifs/VideoLOCO.gif"/>
-    <img style="width: 14%;" src="resources/gifs/VideoUP.gif"/>
-    <img style="width: 14%;" src="resources/gifs/VideoSOS.gif"/>
+    <div>
+        <p style="text-align: center;"><b>Input video</b></p>
+        <img width=120 src="resources/gifs/blowing glass small.gif"/>
+    </div>
+    <div>
+    <p style="text-align: center;"><b>Video LIME</b></p>
+    <img width=120 src="resources/gifs/VideoLIME.gif"/>
+    </div>
+    <div>
+    <p style="text-align: center;"><b>Vid. K.-SHAP</b></p>
+    <img width=120 src="resources/gifs/VideoKernelSHAP.gif"/>
+    </div>
+    <div>
+    <p style="text-align: center;"><b>Video RISE</b></p>
+    <img width=120 src="resources/gifs/VideoRISE.gif"/>
+    </div>
+    <div>
+    <p style="text-align: center;"><b>Vieo LOCO</b></p>
+    <img width=120 src="resources/gifs/VideoLOCO.gif"/>
+    </div>
+    <div>
+    <p style="text-align: center;"><b>Video UP</b></p>
+    <img width=120 src="resources/gifs/VideoUP.gif"/>
+    </div>
+    <div>
+    <p style="text-align: center;"><b>Video SOS</b></p>
+    <img width=120 src="resources/gifs/VideoSOS.gif"/>
+    </div>
 </div>
 
 
