@@ -6,7 +6,7 @@ This project contains the implementation of REVEX (REmoval-based Video EXplanati
 
 Additionally, six existing explanation techniques are adapted to video data by incorporating temporal information and enabling local explanations. The project also provides implementation for evaluation metrics commonly used for eXplainable AI (XAI) methods.
 
-<div style="align-items: end; width: 100%; display: flex; flex-direction: row; justify-content: center;">
+<p float="left" align="middle">
     <div>
         <p style="text-align: center;"><b>Input video</b></p>
         <img width=120 src="resources/gifs/blowing glass small.gif"/>
@@ -35,7 +35,7 @@ Additionally, six existing explanation techniques are adapted to video data by i
     <p style="text-align: center;"><b>Video SOS</b></p>
     <img width=120 src="resources/gifs/VideoSOS.gif"/>
     </div>
-</div>
+</p>
 
 
 ## Install
