@@ -30,6 +30,11 @@ To install the project, follow these steps:
     pip install -r requirements.txt
     ```
 
+4. Install the revex_framework:
+    ```sh
+    pip install -e .
+    ```
+
 ## Usage
 
 [basic_usage.ipynb](notebooks/basic_usage.ipynb) offers a brief introduction on how to use the REVEX frameworks to obtain removal-based explanations. You will also find several examples featuring multiple options for the different steps.
