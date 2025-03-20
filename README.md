@@ -2,16 +2,19 @@
 
 **Authors:** F. Xavier Gaya-Morey, Jose M. Buades-Rubio, I. Scott MacKenzie and Cristina Manresa-Yee
 
+This repository contains the complete code used in the scientific article titled [*"REVEX: A Unified Framework for Removal-Based Explainable Artificial Intelligence in Video"*](https://arxiv.org/abs/2401.11796). 
+
 <img style="width: 100%;" src="resources/graphical abstract.png"/>
 
-This project contains the implementation of REVEX (REmoval-based Video EXplanations), a unified framework for removal-based explanations in the video domain. By decomposing explanation into manageable steps, REVEX facilitates the study of each step's impact and allow for further refinement of explanation methods. 
-
-Additionally, six existing explanation techniques are adapted to video data by incorporating temporal information and enabling local explanations. The project also provides implementation for evaluation metrics commonly used for eXplainable AI (XAI) methods.
+It contains the implementation of the REVEX (REmoval-based Video EXplanations) framework. Additionally, the project contains the implementation of six explanation techniques are adapted to video data by incorporating temporal information and enabling local explanations. The project also provides implementation for evaluation metrics commonly used for eXplainable AI (XAI) methods.
 
 | Input video | Video LIME | Video K.-SHAP | Video RISE | Video LOCO | Video UP | Video SOS |
 |-------------|------------|---------------|------------|------------|----------|-----------|
 | ![](<resources/gifs/blowing glass small.gif>) | ![](<resources/gifs/VideoLIME.gif>) | ![](<resources/gifs/VideoKernelSHAP.gif>) | ![](<resources/gifs/VideoRISE.gif>) | ![](<resources/gifs/VideoLOCO.gif>) | ![](<resources/gifs/VideoUP.gif>) | ![](<resources/gifs/VideoSOS.gif>) |
 
+## Abstract
+
+We developed REVEX, a removal-based video explanations framework. This work extends fine-grained explanation frameworks for computer vision data and adapts six existing techniques to video by adding temporal information and local explanations. The adapted methods were evaluated across networks, datasets, image classes, and evaluation metrics. By decomposing explanation into steps, strengths and weaknesses were revealed in the studied methods, for example, on pixel clustering and perturbations in the input. Video LIME outperformed other methods with deletion values up to 31% lower and insertion up to 30% higher, depending on method and network. Video RISE achieved superior performance in the average drop metric, with values 10% lower. In contrast, localization-based metrics revealed low performance across all methods, with significant variation depending on network. Pointing game accuracy reached 53%, and IoU-based metrics remained below 20%. Drawing on the findings across XAI methods, we further examine the limitations of the employed XAI evaluation metrics and highlight their suitability in different applications.
 
 ## Install
 
