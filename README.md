@@ -1,5 +1,7 @@
 # revex_framework
 
+**Authors:** F. Xavier Gaya-Morey, Jose M. Buades-Rubio, I. Scott MacKenzie and Cristina Manresa-Yee
+
 <img style="width: 100%;" src="resources/graphical abstract.png"/>
 
 This project contains the implementation of REVEX (REmoval-based Video EXplanations), a unified framework for removal-based explanations in the video domain. By decomposing explanation into manageable steps, REVEX facilitates the study of each step's impact and allow for further refinement of explanation methods. 
@@ -47,6 +49,21 @@ The REVEX explanation pipeline consists of four main components:
 * [visualizers.py](revex_framework/visualizers.py): Offers multiple visualization options to enhance the understanding of the explanations.
 
 In the [notebooks](notebooks) directory, you will find examples demonstrating how to use the different options available at each step.
+
+## Citation
+
+If you use this code in your research, please cite our paper:
+```
+@misc{gaya-morey2024revex,
+	title         = {REVEX: A Unified Framework for Removal-Based Explainable Artificial Intelligence in Video},
+	author        = {F. Xavier Gaya-Morey and Jose M. Buades-Rubio and I. Scott MacKenzie and Cristina Manresa-Yee},
+	year          = 2024,
+	url           = {https://arxiv.org/abs/2401.11796},
+	eprint        = {2401.11796},
+	archiveprefix = {arXiv},
+	primaryclass  = {cs.CV}
+}
+```
 
 ## License
 
