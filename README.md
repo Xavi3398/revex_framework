@@ -56,7 +56,7 @@ This work is part of the Project PID2023-149079OB-I00 (EXPLAINME) funded by MICI
 
 F. X. Gaya-Morey was supported by an FPU scholarship from the Ministry of European Funds, University and Culture of the Government of the Balearic Islands.
 
-## Citation
+## Citing
 
 If you use this code in your research, please cite our paper:
 ```
