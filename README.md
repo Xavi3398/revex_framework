@@ -50,6 +50,12 @@ The REVEX explanation pipeline consists of four main components:
 
 In the [notebooks](notebooks) directory, you will find examples demonstrating how to use the different options available at each step.
 
+## Acknowledgements
+
+This work is part of the Project PID2023-149079OB-I00 (EXPLAINME) funded by MICIU/AEI/10.13039/ 501100011033/ and FEDER, EU and of Project PID2022-136779OB-C32 (PLEISAR) funded by MICIU/AEI/10.13039 /501100011033/ and FEDER, EU. 
+
+F. X. Gaya-Morey was supported by an FPU scholarship from the Ministry of European Funds, University and Culture of the Government of the Balearic Islands.
+
 ## Citation
 
 If you use this code in your research, please cite our paper:
@@ -58,10 +64,9 @@ If you use this code in your research, please cite our paper:
 	title         = {REVEX: A Unified Framework for Removal-Based Explainable Artificial Intelligence in Video},
 	author        = {F. Xavier Gaya-Morey and Jose M. Buades-Rubio and I. Scott MacKenzie and Cristina Manresa-Yee},
 	year          = 2024,
+        doi           = {10.48550/arXiv.2401.11796},
 	url           = {https://arxiv.org/abs/2401.11796},
-	eprint        = {2401.11796},
-	archiveprefix = {arXiv},
-	primaryclass  = {cs.CV}
+	eprint        = {2401.11796}
 }
 ```
 
